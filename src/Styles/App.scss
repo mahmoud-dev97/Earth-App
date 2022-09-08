@@ -1,0 +1,89 @@
+$first-col: #0b0d17;
+$second-col: #d0d6f9;
+$third-col: #ffffff;
+$first-font: "Bellefair", serif;
+$sec-font: "Barlow Condensed", sans-serif;
+$Subheading1: 28px;
+$Subheading2: 14px;
+$newtext: 16px;
+body {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: $first-font !important;
+  }
+  p {
+    font-family: $sec-font !important;
+    color: $second-col;
+  }
+}
+
+.offcanvas {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+  backdrop-filter: blur(81.55px) !important;
+  .item li {
+    font-family: $sec-font;
+    padding: 34px 0;
+    list-style-type: none;
+  }
+  .item li a {
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: $third-col;
+    letter-spacing: 2.7px;
+    text-align: center;
+  }
+  .offcanvas-header {
+    display: flex;
+    justify-content: end;
+    padding: 40px 30px !important;
+  }
+  .btn-close {
+    color: $third-col !important;
+  }
+}
+
+.container-fluid {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh !important;
+  .text3 {
+    font-size: 150px;
+    color: $third-col;
+  }
+  .text1 {
+    font-size: 28px;
+    letter-spacing: 4.72px;
+  }
+  .text2 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .text1 {
+      font-size: 15px;
+      margin: unset;
+    }
+    .text3 {
+      font-size: 150px;
+    }
+  }
+  @media (max-width: 767px) {
+    .text3 {
+      font-size: 80px;
+    }
+    .text1 {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container-fluid {
+    background-image: url("../Assets/Images/home/background-home-mobile.jpg");
+  }
+}

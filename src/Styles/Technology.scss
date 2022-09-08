@@ -1,0 +1,99 @@
+$third-col: #ffffff;
+$second-col: #d0d6f9;
+#technology {
+  min-height: calc(100vh - 96px);
+  width: 100%;
+  .port {
+    display: block;
+  }
+  .land {
+    display: none;
+  }
+  .text3 {
+    font-size: 56px;
+    margin-bottom: 30px;
+  }
+  .text4 {
+    font-size: 16px;
+    color: $second-col;
+    margin: 30px 0;
+  }
+  .text2 {
+    font-size: 18px;
+  }
+  .nav {
+    a {
+      font-size: 60px;
+      color: #979797;
+    }
+    a.active {
+      color: $third-col !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .content {
+      padding: 0 50px !important;
+    }
+    .port {
+      display: none;
+    }
+    .land {
+      display: block;
+    }
+    img {
+      margin: 40px 0;
+      width: 100% !important;
+    }
+    .text4 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    .text3 {
+      font-size: 40px;
+    }
+    .text2 {
+      font-size: 16px;
+    }
+    .nav {
+      margin: 20px 0;
+      justify-content: center !important;
+      padding: 0 !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .port {
+      display: none;
+    }
+    .content {
+      padding: 0 50px !important;
+
+    }
+    .land {
+      display: block;
+    }
+    .nav {
+      margin: 20px 0;
+      padding: 0 !important;
+      justify-content: center !important;
+
+    }
+    .text3 {
+      font-size: 24px;
+    }
+    .text4 {
+      font-size: 15px;
+    }
+    .text2 {
+      font-size: 15px;
+      margin: 20px 0;
+    }
+    .text1 {
+      display: none;
+    }
+    img {
+      margin: 40px 0;
+      width: 100% !important;
+
+    }
+  }
+}

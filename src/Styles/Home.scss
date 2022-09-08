@@ -1,0 +1,55 @@
+$third-col: #ffffff;
+
+#home {
+  min-height: calc(100vh - 96px);
+  width: 100%;
+  margin: 0;
+  .circel {
+    height: 274px;
+    width: 274px;
+    background-color: $third-col;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  @media (min-width: 992px) {
+    #home {
+      padding-top: 150px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .text1 {
+      font-size: 15px;
+      margin: unset;
+    }
+    .circel {
+      height: 242px;
+      width: 242px;
+    }
+    .space {
+      padding: 0 150px;
+      margin-bottom: 80px;
+    }
+    .text3 {
+      font-size: 150px;
+    }
+  }
+  @media (max-width: 767px) {
+    .text3 {
+      font-size: 80px;
+    }
+    .text1 {
+      font-size: 15px;
+    }
+    .circel {
+      height: 150px;
+      width: 150px;
+    }
+    .space {
+      padding: 0 20px;
+      margin-bottom: 50px;
+    }
+  }
+}
