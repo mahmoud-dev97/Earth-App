@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../Styles/Technology.scss";
 import { Row, Col, Nav } from "react-bootstrap";
 import imgOne from "../Assets/Images/technology/image-launch-vehicle-portrait.jpg";
 import imgTwo from "../Assets/Images/technology/image-spaceport-portrait.jpg";

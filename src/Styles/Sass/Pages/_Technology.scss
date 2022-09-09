@@ -1,5 +1,5 @@
-$third-col: #ffffff;
-$second-col: #d0d6f9;
+@use "../Variables/GlobalVar" as *;
+
 #technology {
   min-height: calc(100vh - 96px);
   width: 100%;
@@ -66,7 +66,6 @@ $second-col: #d0d6f9;
     }
     .content {
       padding: 0 50px !important;
-
     }
     .land {
       display: block;
@@ -75,7 +74,6 @@ $second-col: #d0d6f9;
       margin: 20px 0;
       padding: 0 !important;
       justify-content: center !important;
-
     }
     .text3 {
       font-size: 24px;
@@ -93,7 +91,6 @@ $second-col: #d0d6f9;
     img {
       margin: 40px 0;
       width: 100% !important;
-
     }
   }
 }

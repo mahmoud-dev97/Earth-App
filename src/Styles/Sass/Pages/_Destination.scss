@@ -1,5 +1,5 @@
-$third-col: #ffffff;
-$second-col: #d0d6f9;
+@use '../Variables/GlobalVar' as *;
+
 #destination {
   min-height: calc(100vh - 96px);
   width: 100%;

@@ -1,4 +1,4 @@
-$third-col: #ffffff;
+@use '../Variables/GlobalVar' as *;
 
 #home {
   min-height: calc(100vh - 96px);

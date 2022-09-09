@@ -1,6 +1,5 @@
-$second-col: #d0d6f9;
-$third-col: #ffffff;
-$sec-font: "Barlow Condensed", sans-serif;
+@use '../Variables/GlobalVar' as *;
+
 
 #nav {
   height: 96px;

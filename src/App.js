@@ -1,4 +1,4 @@
-import "./Styles/App.scss";
+import "./Styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import NavBar from "./components/NavBar";

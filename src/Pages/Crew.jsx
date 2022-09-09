@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../Styles/Crew.scss";
 import { Row, Col, Nav } from "react-bootstrap";
 import imgOne from "../Assets/Images/crew/image-douglas-hurley.png";
 import imgTwo from "../Assets/Images/crew/image-mark-shuttleworth.png";

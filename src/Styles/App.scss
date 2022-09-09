@@ -1,11 +1,9 @@
-$first-col: #0b0d17;
-$second-col: #d0d6f9;
-$third-col: #ffffff;
-$first-font: "Bellefair", serif;
-$sec-font: "Barlow Condensed", sans-serif;
-$Subheading1: 28px;
-$Subheading2: 14px;
-$newtext: 16px;
+@use "./Sass/Pages/Crew";
+@use "./Sass/Pages/Destination";
+@use "./Sass/Pages/Home.scss";
+@use "./Sass/Pages/Nav.scss";
+@use "./Sass/Pages/Technology.scss";
+@use "./Sass/Variables/GlobalVar" as *;
 body {
   h1,
   h2,

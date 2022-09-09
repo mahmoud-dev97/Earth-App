@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../Styles/Nav.scss";
 import logo from "../Assets/Images/shared/logo.svg";
 import burger from "../Assets/Images/shared/icon-hamburger.svg";
 import close from "../Assets/Images/shared/icon-close.svg";

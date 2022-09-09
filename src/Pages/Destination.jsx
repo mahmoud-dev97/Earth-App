@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../Styles/Destination.scss";
 import { Row, Col, Nav } from "react-bootstrap";
 import moon from "../Assets/Images/destination/image-moon.png";
 import mars from "../Assets/Images/destination/image-mars.png";
